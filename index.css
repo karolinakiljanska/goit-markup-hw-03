@@ -13,6 +13,17 @@ body {
   color: var(--grey);
   font-size: 14px;
 }
+.header {
+  border-bottom: 1px solid #ececec;
+  margin: 0px;
+}
+.style-header {
+  display: flex;
+}
+
+.logo-style {
+  padding-top: 24px;
+}
 
 .logo {
   text-decoration: none;
@@ -28,6 +39,10 @@ body {
 }
 .nav-list {
   list-style: none;
+  display: flex;
+  gap: 46px;
+  margin: 0;
+  padding: 32px 0 31px 93px;
 }
 .nav-link-blue {
   text-decoration: none;
@@ -49,6 +64,10 @@ body {
 }
 .contact-list {
   list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 32px 27px 31px 371px;
 }
 .mail-link {
   text-decoration: none;
@@ -85,6 +104,10 @@ body {
   background-color: var(--darkgrey);
   width: 1600px;
   height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .main-section-text {
   font-style: "Roboto";
@@ -113,9 +136,24 @@ body {
   cursor: pointer;
   color: var(--white);
 }
+h1 {
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36363636;
+  margin: 0;
+}
 .lorem-ipsum-list {
   list-style: none;
   justify-content: center;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 0;
+  padding: 94px 15px;
 }
 h5 {
   font-style: normal;
@@ -125,6 +163,8 @@ h5 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--black);
+  margin: 0px auto;
+  font-size: 14px;
 }
 .lorem-ipsum-text {
   font-style: normal;
@@ -133,9 +173,17 @@ h5 {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--grey);
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 3px;
 }
 .what-we-do-list {
   list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 0;
+  padding: 0 15px 94px;
 }
 .what-we-do-header {
   font-style: normal;
@@ -143,12 +191,11 @@ h5 {
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--black);
+  margin: 0 auto;
+  padding: 0 424px 50px;
 }
 .our-team {
-  gap: 30px;
-  padding: 200px 0;
   background-color: var(--notwhite);
 }
 .our-team-header {
@@ -157,14 +204,21 @@ h5 {
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--black);
+  margin: 0;
+  padding: 94px 495px 50px;
 }
+
 .our-team-list {
   list-style: none;
-  width: 1600px;
-  height: 648px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  margin: 0;
+  padding: 0 15px 94px;
 }
+
 .name {
   font-style: normal;
   font-weight: 500;
@@ -172,13 +226,20 @@ h5 {
   line-height: 1.197;
   letter-spacing: 0.03em;
   color: var(--black);
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 50px;
 }
 .position {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.197;
-  letter-spacing: 0.03em;
+
+  text-align: center;
+  padding-bottom: 30px;
+  padding-right: 50px;
 }
 .our-team-background {
   width: 270px;
@@ -191,6 +252,13 @@ footer {
   width: 1600px;
   height: 252px;
   background-color: var(--darkgrey);
+  margin-top: 0px;
+}
+.logo-footer {
+  width: 100%;
+  max-width: 1200px;
+  padding: 60px 15px;
+  margin: 0 auto;
 }
 .adress-text {
   font-style: normal;
@@ -251,4 +319,9 @@ footer {
   height: 404px;
   border: 1px solid #eeeeee;
   background-color: var(--white);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
