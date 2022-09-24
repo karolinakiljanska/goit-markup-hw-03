@@ -25,6 +25,7 @@ body {
 .logo-style {
   padding-top: 28px;
   padding-bottom: 24px;
+  display: flex;
 }
 
 .logo {
@@ -53,7 +54,7 @@ body {
   display: flex;
   gap: 46px;
   margin: 0;
-  padding: 32px 0 31px 93px;
+  padding-left: 92px;
 }
 .nav-link-blue {
   font-family: "Roboto";
