@@ -54,7 +54,6 @@ body {
   list-style: none;
   display: flex;
   gap: 46px;
-  margin: 0;
   padding-left: 92px;
 }
 .nav-link-blue {
