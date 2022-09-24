@@ -19,10 +19,12 @@ body {
 }
 .style-header {
   display: flex;
+  align-items: center;
 }
 
 .logo-style {
-  padding-top: 24px;
+  padding-top: 28px;
+  padding-bottom: 24px;
 }
 
 .logo {
