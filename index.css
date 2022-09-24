@@ -32,7 +32,7 @@ body {
   line-height: 1.193;
   color: var(--black);
   letter-spacing: 0.03em;
-  font-style: Raleway;
+  font-family: "Raleway";
 }
 .footer-logo {
   color: var(--white);
@@ -41,7 +41,7 @@ body {
   font-size: 26px;
   line-height: 1.193;
   letter-spacing: 0.03em;
-  font-style: Raleway;
+  font-family: "Raleway";
 }
 .blue-web {
   color: var(--blue);
@@ -54,6 +54,7 @@ body {
   padding: 32px 0 31px 93px;
 }
 .nav-link-blue {
+  font-family: "Roboto";
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -63,6 +64,7 @@ body {
   line-height: 1.142;
 }
 .nav-link-black {
+  font-family: "Roboto";
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -79,12 +81,13 @@ body {
   padding: 32px 27px 31px 371px;
 }
 .mail-link {
+  font-family: "Roboto";
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
-  color: var(--blue);
+  color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.02em;
 }
 .mail-link:hover {
@@ -95,12 +98,13 @@ body {
 }
 
 .phone-link {
+  font-family: "Roboto";
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
-  color: var(--black);
+  color: var(--grey);
   letter-spacing: 0.02em;
 }
 .phone-link:hover {
@@ -144,6 +148,11 @@ body {
   height: 50px;
   cursor: pointer;
   color: var(--white);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 h1 {
   text-align: center;
@@ -241,7 +250,8 @@ figure {
   text-align: center;
   margin: 0;
   padding-top: 10px;
-  padding-right: 50px;
+
+  justify-content: center;
 }
 .position {
   font-style: normal;
@@ -251,7 +261,6 @@ figure {
 
   text-align: center;
   padding-bottom: 30px;
-  padding-right: 50px;
 }
 .our-team-background {
   width: 270px;
@@ -272,12 +281,33 @@ figure {
 }
 
 .adress-text {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--white);
+  padding-bottom: 9px;
+}
+.mail-link-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 9px;
+}
+.phone-link-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .adress-list {
   display: flex;
